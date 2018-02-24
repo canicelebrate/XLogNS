@@ -1,0 +1,54 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2024
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "XLogNS", "XLogNS\XLogNS.csproj", "{9B235985-F3DA-47F3-92A4-BC16D68A0872}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XLogNS.Android", "XLogNS.Android\XLogNS.Android.csproj", "{B2D63D82-2120-4FCA-80FF-6EDBA7FAC9FE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Samples", "Samples", "{CB954174-6F5B-4B2B-9BE7-DC5D3FB274C5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Forms", "Forms", "{4FEDE67A-F9D8-434C-85CE-4EA54AE1564B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XLogNS.Samples.Forms.Android", "XLogNS.Samples.Forms\XLogNS.Samples.Forms.Android\XLogNS.Samples.Forms.Android.csproj", "{B0C091F6-B0BC-4FF5-A8E5-8F4BD0183334}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XLogNS.Samples.Forms", "XLogNS.Samples.Forms\XLogNS.Samples.Forms\XLogNS.Samples.Forms.csproj", "{A5FEDA0F-1882-44E7-881D-EAFF1ABF8153}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9B235985-F3DA-47F3-92A4-BC16D68A0872}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9B235985-F3DA-47F3-92A4-BC16D68A0872}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9B235985-F3DA-47F3-92A4-BC16D68A0872}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9B235985-F3DA-47F3-92A4-BC16D68A0872}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B2D63D82-2120-4FCA-80FF-6EDBA7FAC9FE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B2D63D82-2120-4FCA-80FF-6EDBA7FAC9FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B2D63D82-2120-4FCA-80FF-6EDBA7FAC9FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B2D63D82-2120-4FCA-80FF-6EDBA7FAC9FE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B0C091F6-B0BC-4FF5-A8E5-8F4BD0183334}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B0C091F6-B0BC-4FF5-A8E5-8F4BD0183334}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B0C091F6-B0BC-4FF5-A8E5-8F4BD0183334}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{B0C091F6-B0BC-4FF5-A8E5-8F4BD0183334}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B0C091F6-B0BC-4FF5-A8E5-8F4BD0183334}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B0C091F6-B0BC-4FF5-A8E5-8F4BD0183334}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{A5FEDA0F-1882-44E7-881D-EAFF1ABF8153}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A5FEDA0F-1882-44E7-881D-EAFF1ABF8153}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A5FEDA0F-1882-44E7-881D-EAFF1ABF8153}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A5FEDA0F-1882-44E7-881D-EAFF1ABF8153}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{4FEDE67A-F9D8-434C-85CE-4EA54AE1564B} = {CB954174-6F5B-4B2B-9BE7-DC5D3FB274C5}
+		{B0C091F6-B0BC-4FF5-A8E5-8F4BD0183334} = {4FEDE67A-F9D8-434C-85CE-4EA54AE1564B}
+		{A5FEDA0F-1882-44E7-881D-EAFF1ABF8153} = {4FEDE67A-F9D8-434C-85CE-4EA54AE1564B}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F21F70B7-5A17-475B-A99D-5C7FB3394BB5}
+	EndGlobalSection
+EndGlobal
