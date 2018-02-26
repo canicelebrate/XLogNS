@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+    <metadata>
+        <id>XLogNS.Android</id>
+        <version>1.0.0.0</version>
+        <title>XLogNS.Android</title>
+        <authors>William Wang</authors>
+        <requireLicenseAcceptance>false</requireLicenseAcceptance>
+        <description>Minimalistic logging Android library that supports Xamarin Android.</description>
+		<dependencies>
+			<dependency id="XLogNS" version="1.0.0"/>
+		<dependencies>
+    </metadata>
+    <files>
+        <!-- Android -->
+        <file src="Bin\Release\XLogNS.Android.dll" target="lib\MonoAndroid\XLog.Android.dll" />
+        <file src="Bin\Release\XLogNS.Android.pdb" target="lib\MonoAndroid\XLog.Android.pdb" />
+    </files>
+</package>

@@ -2,12 +2,22 @@
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
 	<GenerateAssemblyInfo>false</GenerateAssemblyInfo>
+	<PackageProjectUrl>https://github.com/canicelebrate/XLogNS</PackageProjectUrl>
+	<RepositoryUrl>https://github.com/canicelebrate/XLogNS</RepositoryUrl>
+	<RepositoryType>Github</RepositoryType>
+	<PackageTags>XLog,Xamarin,.NET Standard,Forms,Android</PackageTags>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
     <DefineConstants>TRACE;DEBUG;NETSTANDARD2_0</DefineConstants>
     <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
   </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
   <ItemGroup>
     <Compile Remove="Targets\LogcatTarget.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="NuGet.CommandLine" Version="4.5.1" />
   </ItemGroup>
 </Project>
